@@ -1,0 +1,28 @@
+{
+  "name": "my-first-cli",
+  "description": "My First Command Line Interface (CLI)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cli-table": "^0.3.1",
+    "commander": "^6.1.0",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3",
+    "shelljs": "^0.8.4"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js -e js"
+  },
+  "bin": {
+    "todo": "src/index.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-prettier": "^6.13.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "nodemon": "^2.0.5",
+    "prettier": "^2.1.2"
+  }
+}
